@@ -11,8 +11,8 @@ from keras.layers import LSTM, SimpleRNN, GRU
 
 from sklearn.metrics import accuracy_score
 
-train_file = "/home/devan/Documents/aspects-annotated-dataset/tripadvisor/train.unique.json"
-test_file  = "/home/devan/Documents/aspects-annotated-dataset/tripadvisor/test.unique.json"
+train_file = "PATH TO INPUT FILE.json"
+test_file  = "PATH TO TEST FILE.json"
 
 def extract_data_json(file):
 	"""
